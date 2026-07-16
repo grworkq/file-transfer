@@ -21,14 +21,14 @@ To correctly identify incoming data, a simple binary protocol was implemented.
 - Uses only Python standard libriares
 
 ## Project Structure
-
+```text
 file-transfer/
 |
 ├── client.py           # Sends files
 ├── server.py           # Receives files
 ├── server_files/       # Saved files
 └── README.md
-
+```
 
 ## Protocol
 
