@@ -32,6 +32,7 @@ file-transfer/
 
 ## Protocol
 
+```text
 The client sends data in the following order:
 
 4 bytes     -> filename length
@@ -40,6 +41,7 @@ N bytes     -> filename
 N bytes     -> file data
 
 The server reads the information in exactly the same order before receiving the file contents.
+```
 
 ## How to Run
 
